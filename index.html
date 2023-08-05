@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <h1>Restaurant Menu</h1>
+    </header>
+
+    <section>
+        <h2>Main Course</h2>
+        
+        <div class="menu-item">
+            <div class="above">
+                <i class="fas fa-trash-alt delete-icon"></i>
+                <i class="fas fa-edit edit-icon" data-bs-toggle="collapse" href="#collapseExample1" role="button"
+                    aria-expanded="false" aria-controls="collapseExample1"></i>
+                <img src="https://static.vecteezy.com/system/resources/previews/021/665/613/original/beef-burger-isolated-png.png"
+                    alt="Hamburger">
+                <div class="name">Hamburger</div>
+                <div class="price">$10</div>
+            </div>
+            <div class="below collapse" id="collapseExample1">
+                <input type="text" placeholder="New Name">
+                <input type="number" placeholder="New Price">
+                <button class="save-button">Save</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="above">
+                <i class="fas fa-trash-alt delete-icon"></i>
+                <i class="fas fa-edit edit-icon" data-bs-toggle="collapse" href="#collapseExample2" role="button"
+                    aria-expanded="false" aria-controls="collapseExample2"></i>
+                <img src="https://freepngimg.com/thumb/pizza/2-pizza-png-image.png" alt="Pizza">
+                <div class="name">Pizza</div>
+                <div class="price">$12</div>
+            </div>
+            <div class="below collapse" id="collapseExample2">
+                <input type="text" placeholder="New Name">
+                <input type="number" placeholder="New Price">
+                <button class="save-button">Save</button>
+            </div>
+        </div>
+    
+        <div class="menu-item">
+            <div class="above">
+                <i class="fas fa-trash-alt delete-icon"></i>
+                <i class="fas fa-edit edit-icon" data-bs-toggle="collapse" href="#collapseExample3" role="button"
+                    aria-expanded="false" aria-controls="collapseExample3"></i>
+                <img src="https://www.freepnglogos.com/uploads/pasta-png/pasta-seasonings-product-poddar-foods-13.png"
+                    alt="Pasta">
+                <div class="name">Pasta</div>
+                <div class="price">$15</div>
+            </div>
+            <div class="below collapse" id="collapseExample3">
+                <input type="text" placeholder="New Name">
+                <input type="number" placeholder="New Price">
+                <button class="save-button">Save</button>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Beverages</h2>
+
+        <div class="menu-item">
+            <div class="above">
+                <i class="fas fa-trash-alt delete-icon"></i>
+                <i class="fas fa-edit edit-icon" data-bs-toggle="collapse" href="#collapseExample4" role="button"
+                    aria-expanded="false" aria-controls="collapseExample4"></i>
+                <img src="https://www.pngall.com/wp-content/uploads/13/Iced-Tea.png" alt="Ice Tea">
+                <div class="name">Ice Tea</div>
+                <div class="price">$5</div>
+            </div>
+            <div class="below collapse" id="collapseExample4">
+                <input type="text" placeholder="New Name">
+                <input type="number" placeholder="New Price">
+                <button class="save-button">Save</button>
+            </div>
+        </div>
+    
+        <div class="menu-item">
+            <div class="above">
+                <i class="fas fa-trash-alt delete-icon"></i>
+                <i class="fas fa-edit edit-icon" data-bs-toggle="collapse" href="#collapseExample5" role="button"
+                    aria-expanded="false" aria-controls="collapseExample5"></i>
+                <img src="https://assets.stickpng.com/images/580b57fbd9996e24bc43c0e2.png" alt="Coca-Cola">
+                <div class="name">Coca-Cola</div>
+                <div class="price">$4</div>
+            </div>
+            <div class="below collapse" id="collapseExample5">
+                <input type="text" placeholder="New Name">
+                <input type="number" placeholder="New Price">
+                <button class="save-button">Save</button>
+            </div>
+        </div>
+    
+        <div class="menu-item">
+            <div class="above">
+                <i class="fas fa-trash-alt delete-icon"></i>
+                <i class="fas fa-edit edit-icon" data-bs-toggle="collapse" href="#collapseExample6" role="button"
+                    aria-expanded="false" aria-controls="collapseExample6"></i>
+                <img src="https://freepngimg.com/save/6447-orange-juice-png-image/300x300" alt="Orange Juice">
+                <div class="name">Orange Juice</div>
+                <div class="price">$5</div>
+            </div>
+            <div class="below collapse" id="collapseExample6">
+                <input type="text" placeholder="New Name">
+                <input type="number" placeholder="New Price">
+                <button class="save-button">Save</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <button>Add Section <i class="fas fa-plus plus-icon"></i></button>
+        <button>Add Item <i class="fas fa-plus plus-icon"></i></button>
+
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Restaurant Name. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

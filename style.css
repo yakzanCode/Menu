@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 30px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.menu-item {
+    display: block;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 10px 5px 10px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.above{
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.above img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.below{
+    /* padding-top: 10px; */
+}
+
+.name {
+    flex: 1;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 18px;
+}
+
+.delete-icon {
+    margin-left: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    color: rgba(255, 0, 0, 0.800);
+}
+
+.edit-icon {
+    margin-left: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 25px;
+    color: rgba(0, 0, 255, 0.800);
+}
+
+.save-button{
+    height: 30px;
+    color: white;
+    border-radius: 3px;
+    background-color: grey;
+    border: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.save-button:hover{
+    background-color: rgb(168, 168, 168);
+    transition: 0.1s;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
